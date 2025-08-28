@@ -14,8 +14,8 @@ client = chromadb.PersistentClient(path="./chroma_db")
 collection = client.get_or_create_collection("medical_knowledge")
 
 # Модели
-embedding_model = TextEmbeddingModel.from_pretrained("textembedding-gecko@004")
-gemini_model = GenerativeModel("gemini-1.5-flash")
+embedding_model = TextEmbeddingModel.from_pretrained("text-embedding-005")
+gemini_model = GenerativeModel("gemini-2.5-pro")
 
 # === Модель запроса ===
 class QuestionRequest(BaseModel):
