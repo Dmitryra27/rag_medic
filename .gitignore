@@ -1,0 +1,8 @@
+.env
+*.xml
+.idea
+rag_medic.iml
+__pycache__/
+*.pyc
+chroma_db/
+ai-project*
